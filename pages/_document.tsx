@@ -9,12 +9,9 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
-            <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'
-              type='image/png'
-              sizes='32x32'
-              href='favicon.png'
+              href='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🍕</text></svg>'
             />
 
             <link rel='manifest' href='/manifest.json' />
