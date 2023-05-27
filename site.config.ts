@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Jan Szymański',
 
   // open graph metadata (optional)
-  // description: null,
+  description: "my personal site ✨",
 
   // social usernames (optional)
   twitter: 'konhi_',
